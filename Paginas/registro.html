@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Registro</title>
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link rel="stylesheet" href="css/estiloss.css">
+	<script src='js/validar.js'></script>
+</head>
+<body>
+	<ul class="index">
+        <li><a href="../index.html">INICIO</a></li>
+        <li><a href="registrocapacitacion.html">REGISTRO DE CAPACITACION</a></li>
+        <li><a href="informacion.html">INFORMACIÓN</a></li>
+    </ul>
+	<form class="formulario" method="post" onsubmit= "return validar()" >
+		<h1>CREAR TU CUENTA</h1>
+		<div class="contenedor">
+			<div class="input-contenedor">
+				<i class="fas fa-user icon"></i>
+				<input type="text" id='nombre' name="nombre" placeholder="Ingrese su nombre" required="" pattern="[a-zA-Z]+">
+			</div>
+
+			<div class="input-contenedor">
+				<i class="fas fa-user icon"></i>
+				<input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required="" pattern="[a-zA-Z]+">
+			</div>
+
+
+			<div class="input-contenedor">
+				 <i class="fas fa-envelope icon"></i>
+				<input type="email" id="email" name="email" placeholder="Correo electrónico" required="">
+			</div>
+
+			<div class="input-contenedor icon">
+				<i class="fas fa-key icon"></i>
+				<input type="password" id="contra" name="contra" placeholder="Ingrese su contraseña" required="">
+			</div>
+
+
+			 <input type="submit" value="Registrate" class="button">
+			 <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+			 <p>¿Ya tienes una cuenta?<a class="link" href="sesion.html">Iniciar Sesion</a></p>
+		</div>
+	</form>
+</body>
+</html>

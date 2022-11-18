@@ -1,0 +1,106 @@
+<DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+<meta content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style></style>
+    <script type="text/javascript" src="js/consulta.js"></script>
+    <script type="text/javascript" src="js/crud.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/consulta.css">
+ 
+</head>
+<body>
+
+    <a  class="btn btn-dark" href="consulta.html">Salir</a>
+    
+
+    <div class="container">
+      <div style="height:50px"></div>
+      
+
+
+      <input class="form-control col-md-3 light-table-filter" data-table="order-table" type="text" placeholder="Search..">
+      <hr>
+
+      <table class="table table-bordered order-table ">
+        <thead>
+          <tr class="consulta">
+             <th>NOMBRES</th>
+            <th>APELLIDOS</th>
+            <th>EMAIL</th>
+            <th>CURSOS</th>
+            <th>CAPACITADOR</th>
+            <th>HORARIO</th>
+            <th>FECHA DE INGRESO</th>
+            <th>EDAD</th>
+             <th>CONFIRMAR O RECHAZAR</th>
+          </tr>
+
+        </thead>
+        <tr>
+          <td>Carla</td>
+          <td>Zambrano</td>
+          <td>carlazam@gmail.com</td>
+          <td>PREVENCION</td>
+          <td>Stephanie Preciado</td>
+          <td>Vespertino</td>
+          <td>19-11-2022</td>
+          <td>21</td>
+          
+                  <td>
+                    <select>
+                      <option>CONFIRMAR</option>
+                      <option>RECHAZAR</option>
+                    </select>
+                  </td>
+          <td><a class="btn btn-dark" onclick="editar()" href="consulta.html">GUARDAR</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Matias</td>
+          <td>Macias</td>
+          <td>matimac@gmail.com</td>
+          <td>RIESGO PSICOSOCIAL</td>
+          <td>José Fernandez</td>
+          <td>Matutino</td>
+          <td>21-11-2022</td>
+          <td>23</td>
+                  <td>
+                    <select>
+                      <option>CONFIRMAR</option>
+                      <option>RECHAZAR</option>
+                    </select>
+                  </td>
+          <td><a class="btn btn-dark" onclick="editar()" href="consulta.html">GUARDAR</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Fernando</td>
+          <td>Villacis</td>
+          <td>fervc@gmail.com</td>
+          <td>PRIMEROS AUXILIOS</td>
+          <td>Steven Mero</td>
+          <td>Nocturno</td>
+          <td>23-11-2022</td>
+          <td>26</td>
+                  
+                  <td>
+                    <select>
+                      <option>CONFIRMAR</option>
+                      <option>RECHAZAR</option>
+                    </select>
+                  </td>
+          <td><a class="btn btn-dark" onclick="editar()" href="consulta.html">GUARDAR</a>
+          </td>
+        </tr>
+        
+        
+      </table>
+
+    </div> 
+
+  </body>
+</html>

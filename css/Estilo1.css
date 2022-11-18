@@ -1,0 +1,73 @@
+body {
+	font-family: arial, helvetica;
+	background: url(../Paginas/imagen/col.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.index{
+	list-style: none;
+	padding: 0;
+	background: #3C4D7A;
+	width: 100%;
+	max-width: 2500px;
+	margin: auto;
+}
+
+.index li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.index li{
+	display: inline-block;
+	text-align: center;
+}
+
+.index li a:hover{
+	background: #3C4D7A;
+}
+
+.conte{
+    width: 100%;
+    padding: 15px;
+}
+
+.info{
+    background: #95ADEE;
+    margin-top: 150px;
+    padding: 3px;
+}
+
+h1{
+    text-align: center;
+    color: #5B9DB6;
+    font-size: 40px;
+}
+
+img{
+	width: 50%;
+}
+.imge{
+	width: 60%;
+	border-image: center;
+}
+
+h3{
+    color: #3C829C;
+    font-size: 30px;
+}
+
+@media(min-width:770px)
+{
+    .info{
+        margin: auto;
+        width: 80%;
+        margin-top: 70px;
+        border-radius: 2%;
+    }
+
+}

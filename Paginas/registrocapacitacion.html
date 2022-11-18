@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>REGISTRO DE CAPACITACION</title>
+	<link rel="stylesheet" type="text/css" href="css/registrocapacitacion.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+	<ul class="index">
+			<li><a href="../index.html">INICIO</a></li>
+			<li><a href="informacion.html">INFORMACIÓN</a></li>
+		</ul>
+
+	<div class="container">
+		<div class="row mt-4">
+			
+			<div class="col-lg-7.5">
+				<div class="card">
+					<div class="card-body">
+						<center>
+							<h5>AGENDAR CAPACITACION</h5>
+							<div class="form-group"><hr></div>
+							<div class="form-group">
+								Fecha actual
+								<input type="date" id="id" placeholder="Insert id" class="form-control" required="">
+							</div>
+							<div class="form-group">
+								<input type="text" id="name" placeholder="INGRESE SU NOMBRE" class="form-control" required="">
+							</div>
+							<div class="form-group">
+								<input type="text" id="description" placeholder="INGRESE SUS APELLIDOS" class="form-control" required="">
+							</div>
+							<div class="form-group">
+								<input type="email" placeholder="example@example.com" id="email" class="form-control" required="">
+							</div>
+							<div class="form-group">
+								<input type="number" min="3" max="17" id="edad" placeholder="INGRESE LA EDAD" class="form-control" required="">
+							</div>
+							<div class="form-group">
+								CURSOS DISPONIBLES:
+								<select id="especialidades" class="form-control" required="">
+									<option>PREVENCION</option>
+									<option>VACUNAS</option>
+									<option>REFUERZOS</option>
+									<option>RIESGO PSICOSOCIAL</option>
+									<option>PRIMEROS AUXILIOS</option>
+									
+								</select>
+							
+							</div>
+							<div class="form-group">
+								HORARIO:
+								<select id="doctores" class="form-control" required="">
+									<option>MATUTINO</option>
+									<option>VESPERTINO</option>
+									<option>NOCTURNO</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<button class="btn btn-success" onclick="insertask()">
+									<i class="fas fa-plus-circle"></i>
+									GUARDAR
+								</button>
+							</div>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/all.js" ></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

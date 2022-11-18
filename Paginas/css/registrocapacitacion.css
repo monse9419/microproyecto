@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(../imagen/rec.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    width: 1000%;
+    padding: 15px;
+    margin: center;
+   
+}
+
+.index{
+  list-style: none;
+  padding: 0px;
+  background: #214da0;
+  width: 100%;
+  max-width: 2500px;
+  margin: center;
+}
+
+.index li a{
+  text-decoration: none;
+  color: rgb(149, 228, 208);
+  padding: 20px;
+  display: block;
+}
+
+.index li{
+  display: inline-block;
+  text-align: center;
+}
+
+.index li a:hover{
+  background: #BA6A3F;
+}
+     

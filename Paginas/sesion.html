@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Iniciar Sesión</title>
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+	<link rel="stylesheet" href="css/Estilo3.css">
+    <script type="text/javascript" src="js/crud.js"></script>
+</head>
+<body>
+	<ul class="index">
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="registrocapacitacion.html">REGISTRO DE CAPACITACION</a></li>
+            <li><a href="informacion.html">INFORMACIÓN</a></li>
+        </ul>
+	<form class="formulario">
+    
+    <h1>Acceder</h1>
+     <div class="contenedor">
+     
+     
+         
+         <div class="input-contenedor">
+         <i class="fas fa-envelope icon"></i>
+         <input type="email" id="email" name="email" placeholder="correo electrónico" required>
+         
+         </div>
+         
+         <div class="input-contenedor">
+        <i class="fas fa-key icon"></i>
+         <input maxlength="30" type="password" id="contra" name="contra" placeholder="contraseña" required>
+         
+         </div>
+         <br><a href="consulta.html" onclick="login()" class="button">Ingresar</a><br>
+         <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+         <p>¿No tienes una cuenta? <a class="link" href="registro.html">Registrarse ahora</a></p>
+     </div>
+    </form>
+
+</body>
+</html>
